@@ -1,0 +1,11 @@
+{
+  "commands": [
+    "npm install",
+    "docker-compose up -d mongodb",
+    "npm run migrate",
+    "npm run build --prefix client",
+    "npm run test",
+    "npm run dev",
+    "npm run api"
+  ]
+}
